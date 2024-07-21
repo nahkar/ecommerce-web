@@ -1,0 +1,188 @@
+const fontFamily = 'Public Sans';
+
+export const theme = {
+	light: {
+		colors: {
+			// Primary
+			primary_main: '#194ED5',
+			primary_lighter: '#E7EAFA',
+			primary_light: '#9BA8EA',
+			primary_dark: '#0121BA',
+			primary_darker: '#001161',
+			// Secondary
+			secondary_main: '#FFA31A',
+			secondary_lighter: '#FFEDB6',
+			secondary_light: '#FFC46B',
+			secondary_dark: '#DE7B0B',
+			secondary_darker: '#7D3300',
+			// Info
+			info_main: '#38B1FF',
+			info_lighter: '#E3F6FF',
+			info_light: '#78D2FF',
+			info_dark: '#006AAE',
+			info_darker: '#003E65',
+			// Warning
+			warning_main: '#F4CD00',
+			warning_lighter: '#FFF8BF',
+			warning_light: '#FDE569',
+			warning_dark: '#C1A200',
+			warning_darker: '#584A00',
+			// Success
+			success_main: '#26C920',
+			success_lighter: '#D3FFD3',
+			success_light: '#7DE87F',
+			success_dark: '#009300',
+			success_darker: '#004B00',
+			// Error
+			error_main: '#FF4842',
+			error_lighter: '#FFE7D9',
+			error_light: '#FFA48D',
+			error_dark: '#B72136',
+			error_darker: '#56001A',
+			// gray
+			gray_100: '#F9FAFB',
+			gray_200: '#F4F6F8',
+			gray_300: '#DFE3E8',
+			gray_400: '#C4CDD5',
+			gray_500: '#919EAB',
+			gray_600: '#637381',
+			gray_700: '#454F5B',
+			gray_800: '#212B36',
+			gray_900: '#161C24',
+			// Black
+			black: '#000000',
+			// White
+			white: '#FFFFFF',
+			transparent: {
+				// Primary
+				primary8: 'rgba(25, 78, 213, 0.08)',
+				primary12: 'rgba(25, 78, 213, 0.12)',
+				primary16: 'rgba(25, 78, 213, 0.16)',
+				primary24: 'rgba(25, 78, 213, 0.24)',
+				primary32: 'rgba(25, 78, 213, 0.32)',
+				primary48: 'rgba(25, 78, 213, 0.48)',
+				// Secondary
+				secondary8: 'rgba(255, 163, 26, 0.08)',
+				secondary12: 'rgba(255, 163, 26, 0.12)',
+				secondary16: 'rgba(255, 163, 26, 0.16)',
+				secondary24: 'rgba(255, 163, 26, 0.24)',
+				secondary32: 'rgba(255, 163, 26, 0.32)',
+				secondary48: 'rgba(255, 163, 26, 0.48)',
+				// Info
+				info8: 'rgba(56, 177, 255, 0.08)',
+				info12: 'rgba(56, 177, 255, 0.12)',
+				info16: 'rgba(56, 177, 255, 0.16)',
+				info24: 'rgba(56, 177, 255, 0.24)',
+				info32: 'rgba(56, 177, 255, 0.32)',
+				info48: 'rgba(56, 177, 255, 0.48)',
+				// Warning
+				warning8: 'rgba(244, 205, 0, 0.08)',
+				warning12: 'rgba(244, 205, 0, 0.12)',
+				warning16: 'rgba(244, 205, 0, 0.16)',
+				warning24: 'rgba(244, 205, 0, 0.24)',
+				warning32: 'rgba(244, 205, 0, 0.32)',
+				warning48: 'rgba(244, 205, 0, 0.48)',
+				// Success
+				success8: 'rgba(38, 201, 32, 0.08)',
+				success12: 'rgba(38, 201, 32, 0.12)',
+				success16: 'rgba(38, 201, 32, 0.16)',
+				success24: 'rgba(38, 201, 32, 0.24)',
+				success32: 'rgba(38, 201, 32, 0.32)',
+				success48: 'rgba(38, 201, 32, 0.48)',
+				// Error
+				error8: 'rgba(255, 72, 66, 0.08)',
+				error12: 'rgba(255, 72, 66, 0.12)',
+				error16: 'rgba(255, 72, 66, 0.16)',
+				error24: 'rgba(255, 72, 66, 0.24)',
+				error32: 'rgba(255, 72, 66, 0.32)',
+				error48: 'rgba(255, 72, 66, 0.48)',
+				// Gray
+				gray8: 'rgba(145, 158, 171, 0.08)',
+				gray12: 'rgba(145, 158, 171, 0.12)',
+				gray16: 'rgba(145, 158, 171, 0.16)',
+				gray24: 'rgba(145, 158, 171, 0.24)',
+				gray32: 'rgba(145, 158, 171, 0.32)',
+				gray48: 'rgba(145, 158, 171, 0.48)',
+				// Black
+				black8: 'rgba(0, 0, 0, 0.08)',
+				black12: 'rgba(0, 0, 0, 0.12)',
+				black16: 'rgba(0, 0, 0, 0.16)',
+				black24: 'rgba(0, 0, 0, 0.24)',
+				black32: 'rgba(0, 0, 0, 0.32)',
+				black48: 'rgba(0, 0, 0, 0.48)',
+				// White
+				white8: 'rgba(255, 255, 255, 0.08)',
+				white12: 'rgba(255, 255, 255, 0.12)',
+				white16: 'rgba(255, 255, 255, 0.16)',
+				white24: 'rgba(255, 255, 255, 0.24)',
+				white32: 'rgba(255, 255, 255, 0.32)',
+				white48: 'rgba(255, 255, 255, 0.48)',
+			},
+			gradient: {
+				primary: 'linear-gradient(135deg, #9BA8EA 0%, #0121BA 100%)',
+				secondary: 'linear-gradient(135deg, #FFC46B 0%, #DE7B0B 100%)',
+				info: 'linear-gradient(135deg, #78D2FF 0%, #006AAE 100%)',
+				warning: 'linear-gradient(135deg, #FDE569 0%, #C1A200 100%)',
+				success: 'linear-gradient(135deg, #7DE87F 0%, #009300 100%)',
+				error: 'linear-gradient(135deg, #FFA48D 0%, #B72136 100%)',
+			},
+			text: {
+				primary: '#212B36',
+				secondary: '#637381',
+				disabled: '#919EAB',
+			},
+		},
+		shadows: {
+			primary: '0px 8px 16px 0px rgba(25, 78, 213, 0.24)',
+			secondary: '',
+			info: '0px 8px 16px 0px rgba(56, 177, 255, 0.24)',
+			warning: '0px 8px 16px 0px rgba(244, 205, 0, 0.24)',
+			success: '0px 8px 16px 0px rgba(38, 201, 32, 0.24)',
+			error: '0px 8px 16px 0px rgba(255, 72, 66, 0.24)',
+			y1: '0px 1px 2px 0px rgba(145, 158, 171, 0.16)',
+			y8: '0px 8px 16px 0px rgba(145, 158, 171, 0.16)',
+			y12: '0px 12px 24px -4px rgba(145, 158, 171, 0.16)',
+			y16: '0px 16px 32px -4px rgba(145, 158, 171, 0.16)',
+			y20: '0px 20px 40px -4px rgba(145, 158, 171, 0.16)',
+			y24: '0px 24px 48px 0px rgba(145, 158, 171, 0.16)',
+			card: '0px 0px 2px 0px rgba(145, 158, 171, 0.20), 0px 12px 24px -4px rgba(145, 158, 171, 0.12)',
+			dialog: '-40px 40px 80px -8px rgba(145, 158, 171, 0.24)',
+			dropdown:
+				'0px 0px 2px 0px rgba(145, 158, 171, 0.24), -20px 20px 40px -4px rgba(145, 158, 171, 0.24)',
+		},
+		footer: {
+			height: '55px',
+		},
+	},
+	dark: {},
+
+	font: {
+		desktop: {
+			h1: `700 64px/80px ${fontFamily}`,
+			h2: `700 48px/64px ${fontFamily}`,
+			h3: `700 32px/48px ${fontFamily}`,
+			h4: `700 24px/36px ${fontFamily}`,
+			h5: `700 20px/30px ${fontFamily}`,
+			h6: `700 18px/28px ${fontFamily}`,
+			subtitle_1: `600 16px/24px ${fontFamily}`,
+			subtitle_2: `600 14px/22px ${fontFamily}`,
+			body_M_bold: `700 16px/24px ${fontFamily}`,
+			body_M: `400 16px/24px ${fontFamily}`,
+			body_S_bold: `700 14px/22px ${fontFamily}`,
+			body_S: `400 14px/22px ${fontFamily}`,
+			button_L: `700 15px/26px ${fontFamily}`,
+			button_M: `700 14px/24px ${fontFamily}`,
+			button_S: `700 13px/22px ${fontFamily}`,
+			caption_bold: `700 12px/18px ${fontFamily}`,
+			caption: `400 12px/18px ${fontFamily}`,
+			caption_S: `500 10px/16px ${fontFamily}`,
+		},
+	},
+	breakpoints: {
+		mobile: '430px',
+		tablet: '900px',
+		desktop: '1200px',
+	},
+} as const;
+
+export type ThemeT = typeof theme;
