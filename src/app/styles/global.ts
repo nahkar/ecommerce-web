@@ -84,7 +84,8 @@ export const GlobalStyle = createGlobalStyle<{ theme: ThemeT }>`
   body, html{
       height: 100%; 
       scroll-behavior: smooth; 
-      font-family: 'Public Sans', sans-serif;
+      font-family: "Inter", sans-serif;
+
   }
 
   blockquote, q {
@@ -109,4 +110,8 @@ export const EllipsisSection = styled.div`
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
+`;
+export const LayoutInnerContainer = styled.div<{ theme: ThemeT }>`
+	margin: 0 auto;
+	max-width: ${({ theme }) => theme.breakpoints.desktop}px;
 `;

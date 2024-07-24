@@ -1,4 +1,4 @@
-const fontFamily = 'Public Sans';
+const fontFamily = 'Inter';
 
 export const theme = {
 	light: {
@@ -179,9 +179,9 @@ export const theme = {
 		},
 	},
 	breakpoints: {
-		mobile: '430px',
-		tablet: '900px',
-		desktop: '1200px',
+		mobile: 430,
+		tablet: 900,
+		desktop: 1440,
 	},
 } as const;
 
